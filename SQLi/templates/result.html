@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Try to query a password of all users with one line query</h1>
+<form method="POST">
+    <label for="name">ID:</label>
+    <input type="text" id="id" name="id"><br></br>
+    <input type="submit" value="submit">
+</form>
+<h3>Kết quả:</h3>
+<ul>
+    {% for id in userid %}
+        <li>{{ id[0] }}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>
