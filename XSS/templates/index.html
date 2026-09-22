@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Comment Function</h1>
+<p id="This is XSS site for level 1"></p>
+<form method="POST">
+    <label for="comment">Comment:</label><br>
+    <input type="text" id="comment" name="comment"><br><br>
+</form>
+
+<p id="out">Commented by</p>
+
+<script>
+    var userinput = document.getElementById('comment');
+    var out = document.getElementById('out');
+    function func1() {
+        out.innerHTML = userinput.value;
+    }
+    comment.addEventListener('input', func1)
+</script>
+</body>
+</html>
