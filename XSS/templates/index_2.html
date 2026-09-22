@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Comment Function</h1>
+<p id="This is XSS site for level 2"></p>
+<form method="POST">
+    <label for="comment">Comment:</label><br>
+    <input type="text" id="comment" name="comment"><br><br>
+</form>
+
+<p id="out">Commented by: {{ comment | safe }}</p>
+</body>
+</html>
