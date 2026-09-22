@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Comment Function</h1>
+<p id="This is XSS site for level 3"></p>
+<h3>Nếu trang không redirect được thì bấm quay lại để hack tiếp nha :></h3>
+<h3>Chúc mấy em làm bài tốt</h3>
+<form method="POST">
+    <label for="link">Comment:</label><br>
+    <input type="text" id="link" name="link"><br><br>
+</form>
+
+<a href="{{link | safe}}"> Click here to visit the website</a>
+
+</body>
+</html>
