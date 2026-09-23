@@ -6,7 +6,7 @@ A lightweight, deliberately vulnerable web application built with Python (Flask)
 
 This is my first hands-on project exploring common web application vulnerabilities and secure input validation. It is designed primarily as an educational exercise for beginners and CTF enthusiasts interested in source-code inspection and local exploitation.
 
-Feedback, suggestions, and ideas to enhance the challenge are welcome! Feel free to reach out via [My Profile](https://xxx).
+Feedback, suggestions, and ideas to enhance the challenge are welcome! Feel free to reach out via [My Profile](https://www.linkedin.com/in/phong-duong-nguyen-832790304/).
 
 ---
 
