@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Welcome to my OS command injection level 1</h1>
+        <h2>Mục tiêu của bài là thực thi được lệnh whoami để chứng minh os command injection</h2>
+        <h3>Nhập địa chỉ ip hoặc domain để kiểm tra kết nối</h3>
+        <form method="POST">
+            <input type="text" id="command" name="command">
+        </form>
+        <p>Your output is {{ command | safe }}</p>
+    </body>
+</html>
