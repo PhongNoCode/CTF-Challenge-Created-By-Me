@@ -1,8 +1,29 @@
-# CTF-Challenge-Created-By-Me
-## This is the first time that I code a vulnerable website to learn how a server deal with users inputs. I know this project is not interesting for those who have many experiences through large CTF competitions. If you read and have ideas to enhance this project, please contact to me via: https://www.linkedin.com/in/phong-duong-nguyen-832790304/
+# CTF Web Challenge: Input Handling Labs
 
-#### To play this project, you just need to clone and run python, the code will run locally (Run in Vscode is the best to test)
-### Remember to install flask before playing
-```
-pip install flask
-```
+A lightweight, deliberately vulnerable web application built with Python (Flask) designed to demonstrate how back-end servers process and handle untrusted user input.
+
+## About The Project
+
+This is my first hands-on project exploring common web application vulnerabilities and secure input validation. It is designed primarily as an educational exercise for beginners and CTF enthusiasts interested in source-code inspection and local exploitation.
+
+Feedback, suggestions, and ideas to enhance the challenge are welcome! Feel free to reach out via [My Profile](https://xxx).
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have **Python 3.x** installed on your system.
+
+### Installation & Setup
+
+1. **Clone the repository:**
+   ```
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   cd your-repo-name
+   ```
+2. **Run python to build localhost to exploit**
+   ```
+   python challenge.py
+   ```
