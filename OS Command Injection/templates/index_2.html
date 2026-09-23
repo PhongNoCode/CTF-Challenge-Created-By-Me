@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Welcome to my OS command injection level 3</h1>
+        <h2>Nhập tên để tôi chào cái nào :v</h2>
+        <form method="POST">
+            <input type="text" id="command" name="command">
+        </form>
+        <p>Hello {{ command | safe }}</p>
+    </body>
+</html>
